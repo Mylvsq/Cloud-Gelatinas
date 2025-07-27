@@ -1,0 +1,58 @@
+
+body {
+    font-family: "Brush Script MT", cursive;
+    background: linear-gradient(to bottom, #ffeaf4, #ffe2f0);
+    color: #d35c9e;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #fff0f8;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 6px #f8c6dc;
+}
+
+.logo {
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 6px #ffaad4;
+}
+
+h1 {
+    font-size: 2.5em;
+    flex-grow: 1;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff62a5;
+    font-weight: bold;
+}
+
+section {
+    padding: 2em;
+    background-color: #fff9fc;
+    margin: 1em;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px #f5bad3;
+}
+
+.catalogo {
+    list-style: none;
+    padding-left: 1em;
+}
+
+.catalogo li::before {
+    content: "🍮 ";
+}
